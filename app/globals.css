@@ -1,32 +1,12 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-header {
-  background: #333;
-  color: white;
-  padding: 1rem 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-main {
-  padding: 2rem;
-  text-align: center;
+:root {
+  --color-primary: #f0707d;
+  --color-secondary: #fff;
+  --color-accent: #fff3f5;
+  --text-primary:#000;
+  --text-secondary:#fff;
+  --text-pink:#f0707d;
 }
