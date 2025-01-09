@@ -53,3 +53,30 @@ export const menuItems = [
       categories: ["Events", "How to Use CycleGrove"],
     },
   ];
+
+  export const infoItemsData = [
+    {
+      id:1,
+      icon: "/images/target.svg",
+      firstText: "Predictions you can plan",
+      secondText: "around",
+      naviagaion:"",
+      navigationText:"Why our users love the Flo App"
+    },
+    {
+      id:2,
+      icon: "/images/lock.svg",
+      firstText: "Personal data that stays",
+      secondText: "private to you",
+      naviagaion:"",
+      navigationText:"Your privacy FAQs answered"
+    },
+    {
+      id:3,
+      icon: "/images/security.svg",
+      firstText: "Information you",
+      secondText: "can trust",
+      naviagaion:"",
+      navigationText:"Meet our medical team"
+    },
+  ]

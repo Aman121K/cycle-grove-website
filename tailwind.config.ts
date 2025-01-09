@@ -15,7 +15,10 @@ export default {
         accent: "var(--color-accent)",         
         textPrimary: "var(--text-primary)",    
         textSecondary: "var(--text-secondary)",
-        textPink:"var(--text-pink)"
+        textPink:"var(--text-pink)",
+      },
+      backgroundImage: {
+        'custom-gradient': "var(--bg-gradient)"
       },
     },
   },

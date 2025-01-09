@@ -9,4 +9,5 @@
   --text-primary:#000;
   --text-secondary:#fff;
   --text-pink:#f0707d;
+  --bg-gradient: linear-gradient(180deg, rgba(255, 90, 125, 0.05), rgba(255, 90, 125, 0.05) 83%, rgba(246, 0, 52, 0.1));
 }
